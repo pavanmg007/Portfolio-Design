@@ -1,0 +1,123 @@
+/**---------    Resetting    ---------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/**---------   font  -----------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+html {
+  font-family: "Inter", sans-serif;
+  background-color: #f7f7f7;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1160px;
+  margin: 0px auto;
+}
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.space-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+
+
+/**---------    Navbar      ---------*/
+.navbar {
+  background-color: #fbf3e4;
+}
+ul {
+  list-style-type: none;
+}
+nav ul li a {
+  padding: 0 2rem;
+  color: #424242;
+}
+.navbar h1 {
+  color: #105652;
+  padding: 15px 0;
+}
+
+/**---------    Hero Section    ---------*/
+.hero-section {
+  max-height: 470px;
+  background-color: #105652;
+}
+.hero-text {
+  padding: 70px 10px 0 0;
+}
+.hero-title h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fca738;
+  margin-bottom: 3px;
+}
+.hero-title h2 {
+  font-size: 2.45rem;
+  font-weight: 700;
+  color: #fbf3e4;
+}
+.hero-para {
+  color: #fbf3e4;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin: 54px 0px 32px 0px;
+}
+.hero-image img {
+  max-height: 470px;
+}
+
+
+/**----------    Buttons   ----------*/
+.button {
+  color: #fbf3e4;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.button-blue {
+  padding: 14px 52px;
+  background: #09bead 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 29px #0bbead69;
+  opacity: 0.99;
+  margin-right: 36px;
+}
+.button-yellow {
+  padding: 15px 27px;
+  background: #fca738 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 28px #f57f1769;
+  opacity: 1;
+}
+
+ 
+/*!---------  Backgoround Waves !Need to be fixed  ------------*/
+.waves{
+  position: relative;
+  z-index: 1;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
