@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 /**---------   font  -----------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
@@ -42,10 +41,10 @@ a {
   align-items: center;
 }
 
-
 /**---------    Navbar      ---------*/
 .navbar {
   background-color: #fbf3e4;
+  box-shadow: 0px 3px 59px #b9164614;
 }
 ul {
   list-style-type: none;
@@ -88,7 +87,6 @@ nav ul li a {
   max-height: 470px;
 }
 
-
 /**----------    Buttons   ----------*/
 .button {
   color: #fbf3e4;
@@ -109,15 +107,68 @@ nav ul li a {
   opacity: 1;
 }
 
- 
 /*!---------  Backgoround Waves !Need to be fixed  ------------*/
-.waves{
+.waves {
   position: relative;
-  z-index: 1;
 }
 svg {
+  display: inline-block;
   position: absolute;
   bottom: 0;
   z-index: 1;
 }
+.z {
+  position: relative;
+  z-index: 2;
+}
 
+/**---------     About section     ----------*/
+.about {
+  margin: 43px auto;
+}
+.about-card {
+  height: 606px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 59px #10565221;
+  border-radius: 20px;
+  opacity: 1;
+}
+.about-image img {
+  max-height: 100%;
+}
+.about-text h2 {
+  margin-top: 27px;
+  color: #105652;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.about-text h2::after {
+  content: "";
+  display: block;
+  max-width: 209px;
+  margin: 13px 0 44px 0;
+  border-top: 7px solid #fca738;
+}
+.about-text p {
+  color: #105652;
+  font-size: 1.13rem;
+  font-weight: 400;
+  line-height: 1.65;
+  max-width: 536px;
+  margin-bottom: 20px;
+}
+.about-lang {
+  max-width: 535px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #00000029;
+  border-radius: 20px;
+  padding: 15px 17px;
+}
+.about-lan p {
+  color: #105652;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.logos img {
+  width: 50px;
+}
