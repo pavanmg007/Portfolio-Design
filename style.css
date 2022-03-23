@@ -37,10 +37,15 @@ a {
 .space-around {
   justify-content: space-around;
 }
+.justify-center {
+  justify-content: center;
+}
 .align-center {
   align-items: center;
 }
-
+.wrap {
+  flex-wrap: wrap;
+}
 /**---------    Navbar      ---------*/
 .navbar {
   background-color: #fbf3e4;
@@ -52,6 +57,9 @@ ul {
 nav ul li a {
   padding: 0 2rem;
   color: #424242;
+}
+nav ul li a:hover {
+  color: #fca738;
 }
 .navbar h1 {
   color: #105652;
@@ -90,6 +98,7 @@ nav ul li a {
 /**----------    Buttons   ----------*/
 .button {
   color: #fbf3e4;
+  font-weight: 600;
   font-size: 1rem;
   border-radius: 8px;
 }
@@ -99,6 +108,10 @@ nav ul li a {
   box-shadow: 0px 16px 29px #0bbead69;
   opacity: 0.99;
   margin-right: 36px;
+}
+.button-blue:hover {
+  transform: scale(1.1);
+  transition: all 0.7s;
 }
 .button-yellow {
   padding: 15px 27px;
@@ -171,4 +184,52 @@ svg {
 }
 .logos img {
   width: 50px;
+}
+
+/**----------     Portolio Section   -------------*/
+.title h2 {
+  color: #105652;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.title h2::after {
+  content: "";
+  display: block;
+  max-width: 209px;
+  margin: 10px 0 44px 0;
+  border-top: 7px solid #fca738;
+}
+.work {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 244px;
+  width: 352px;
+  border-radius: 12px;
+  margin: 6px 0;
+}
+#work1 {
+  background-image: url(./preview.avif);
+}
+#work3 {
+  flex-basis: 450px;
+  background-image: url(./preview3.webp);
+}
+#work2 {
+  flex-basis: 300px;
+  background-image: url(./preview2.webp);
+}
+#work4 {
+  flex-basis: 300px;
+  background-image: url(./preview4.webp);
+}
+#work5 {
+  background-image: url(./preview5.avif);
+}
+#work6 {
+  flex-basis: 450px;
+  background-image: url(./preview6.avif);
+}
+/**---------     Resume Section      -----------*/
+.resume {
+  margin: 43px auto;
 }
