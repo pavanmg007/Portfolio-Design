@@ -223,10 +223,10 @@ svg {
   background-image: url(./preview4.webp);
 }
 #work5 {
+  flex-basis: 450px;
   background-image: url(./preview5.avif);
 }
 #work6 {
-  flex-basis: 450px;
   background-image: url(./preview6.avif);
 }
 /**---------     Resume Section      -----------*/
