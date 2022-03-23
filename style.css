@@ -46,6 +46,7 @@ a {
 .wrap {
   flex-wrap: wrap;
 }
+
 /**---------    Navbar      ---------*/
 .navbar {
   background-color: #fbf3e4;
@@ -141,9 +142,6 @@ svg {
 }
 .about-card {
   height: 606px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0px 59px #10565221;
-  border-radius: 20px;
   opacity: 1;
 }
 .about-image img {
@@ -210,13 +208,13 @@ svg {
 #work1 {
   background-image: url(./preview.avif);
 }
-#work3 {
-  flex-basis: 450px;
-  background-image: url(./preview3.webp);
-}
 #work2 {
   flex-basis: 300px;
   background-image: url(./preview2.webp);
+}
+#work3 {
+  flex-basis: 450px;
+  background-image: url(./preview3.webp);
 }
 #work4 {
   flex-basis: 300px;
@@ -232,4 +230,86 @@ svg {
 /**---------     Resume Section      -----------*/
 .resume {
   margin: 43px auto;
+}
+.resume-inner-section {
+  flex-basis: 697px;
+}
+.resume-content {
+  width: 697px;
+}
+.resume-content h3 {
+  font-size: 1.5em;
+  color: #105652;
+  font-weight: 600;
+}
+.resume-content h4 {
+  font-size: 1.25em;
+  color: #105652;
+  font-weight: 600;
+}
+.resume-content h6 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #105652;
+  margin-top: 17px;
+}
+hr {
+  border: 1px solid #c2c2c2;
+  margin: 10px 0 38px 0;
+}
+.work-experience {
+  margin-bottom: 38px;
+}
+.experience {
+  margin-bottom: 56px;
+}
+.workname p {
+  margin-top: 1.5em;
+  max-width: 500px;
+  color: #333333;
+  font-weight: 400;
+  line-height: 24px;
+}
+.work-year p {
+  background-color: #fca738;
+  box-shadow: 0px 3px 7px #f57f173d;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 7px 17px;
+}
+.resume-image {
+  width: 496px;
+}
+.card {
+  color: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 12px;
+  box-shadow: 0px 0px 59px #10565221;
+}
+.image-card {
+  margin: 0 auto;
+  width: 404px;
+  height: 427px;
+  position: relative;
+}
+.image-card img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  max-width: 125%;
+}
+.social-icons {
+  margin: 9px auto;
+  width: 404px;
+  height: 82px;
+  position: relative;
+}
+.social-icons ul {
+  margin: 18px 30px;
+}
+.social-icons li > img {
+  width: 45px;
 }
