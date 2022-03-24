@@ -268,6 +268,26 @@ hr {
 }
 .experience {
   margin-bottom: 56px;
+  position: relative;
+}
+.experience::before {
+  content: "";
+  border-left: 2px solid #09bcab;
+  position: absolute;
+  height: 110px;
+}
+.timeline i {
+  color: #09bcab;
+  width: 20px;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  font-size: 22px;
+  margin-left: -10px;
+  margin-top: -20px;
+}
+.workname {
+  margin-left: 2em;
 }
 .workname p {
   margin-top: 1.5em;
